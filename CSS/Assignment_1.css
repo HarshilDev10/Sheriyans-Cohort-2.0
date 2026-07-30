@@ -1,0 +1,45 @@
+@font-face {
+    font-family: Nothing;
+    src: url(./Fonts/Ndot-55.otf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#box1{
+    background-image: url("./Assets/car3.jpg");
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    padding: 80px 0px;
+}
+
+h1{
+    font-size: 54px;
+    font-family: Nothing;
+    color: #E3AA01;
+    /* color: rgb(198, 193, 193); */
+    font-weight: 100;
+}
+
+button{
+    padding: 10px 20px; 
+    font-family:Nothing;
+    font-weight: 100;
+    background-color: transparent;
+    color: rgb(39, 148, 148);
+    border-radius: 25px;
+    border: 2px solid rgb(39, 148, 148);
+    
+}

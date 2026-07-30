@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+/* Absolute */
+#car1{
+    height: 200px;
+    width: 100px;
+    background-color: blue;
+}
+
+#car2{
+    position: absolute;
+    left: 10%;
+    height: 250px;
+    width: 150px;
+    background-color: red;
+}
+
+#car3{
+    height: 300px;
+    width: 200px;
+    background-color: green;
+}
+/* Relative */
+#parent{
+    position: relative;
+    height: 200px;
+    width: 300px;
+    background-color: aqua;
+}
+
+#child{
+    position: absolute;
+    left: 50%;
+    height: 100px;
+    width: 150px;
+    background-color: black;
+}
+/* Fixed */
+#fixed-box{
+    position: fixed;
+    left: 50%;
+    height: 100px;
+    width: 200px;
+    background-color: black;
+}
+
+/* Sticky */
+#main-box{
+    width: 100%;
+    background-color: rgb(50, 49, 49);
+}
+
+#box1{
+    height: 1200px;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+#box2{
+    height: 1200px;
+    width: 100%;
+    background-color: blueviolet;
+}
+
+#small-box{
+    position: sticky; /* Will not work in browser due to other position absolute in same file. */
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+}
+
+
+</style>
+<body>
+    <!-- Position Fixed : Kisi bhi element ko ek jagah fix karna scroll karne ke baad bhi. -->
+     <br><h1>Position Fixed</h1>
+     <div id="fixed-box"></div>
+
+    <!-- Position Absolute : Kisi bhi element ko upar uthane ke liye -->
+     <br><h1>Position Absolute</h1>
+     <div id="car1"></div>
+     <div id="car2"></div>
+     <div id="car3"></div>
+
+    <!-- Position Relative : Kisi bhi element ko ek div ke relative position karna -->
+     <br><h1>Position Relative</h1>
+     <div id="parent">
+        <div id="child"></div>
+     </div>
+
+     <!-- Position Sticky : Scroll karne ke badd upar chipak jana. -->
+      <br><h1>Position Sticky</h1>
+      <div id="main-box">
+        <div id="box1">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo magni, odio veniam rem, quis quod repellat possimus cum mollitia numquam eum iure optio eos, voluptatum consequuntur impedit voluptas nesciunt aut amet architecto aliquid quibusdam perferendis atque nisi! Quas modi delectus praesentium quasi animi corrupti non dolores, iure commodi dolorem perferendis necessitatibus. Nam labore repudiandae tempora! Fuga quas, dolore nesciunt suscipit molestias at quae sed nam sint dolorum ipsum corrupti consectetur minima porro nihil delectus dolorem, aspernatur adipisci neque ab veniam eligendi soluta a. Nulla, placeat odio sit quisquam vel porro! Quibusdam ad harum, tenetur aut est sint esse modi numquam, iure accusamus laboriosam illum commodi. Neque, tenetur pariatur perspiciatis odio quaerat nihil qui reiciendis autem! Consequatur dicta, earum eum repellendus cupiditate, hic nam, doloremque rem perspiciatis excepturi dolor laudantium itaque esse beatae voluptates pariatur illum quae reiciendis id recusandae! Nihil quidem repellendus corrupti nisi, libero adipisci iste deleniti temporibus impedit, beatae, quis debitis cupiditate dolorem voluptate neque quam totam inventore provident optio doloribus sapiente. Voluptatum magnam quaerat ipsa pariatur laborum cupiditate doloribus id iste accusamus? Assumenda perferendis aliquid quae ipsum vero labore adipisci quaerat quidem eum deleniti architecto impedit eveniet voluptatibus molestiae ullam aspernatur, quod deserunt vitae et reiciendis! Ipsam?</p>
+            <div id="small-box"></div>
+        </div>
+        <div id="box2">
+        </div>
+
+      </div>
+
+    
+</body>
+</html>

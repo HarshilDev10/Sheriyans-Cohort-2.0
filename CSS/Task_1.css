@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.container-1{
+    height: 200px;
+    text-align: center;
+    background-color: darkblue;
+    padding: 40px;
+    color: white;
+}
+
+.container-2{
+    color: black;
+}
+
+.about{
+    background-color: aliceblue;
+    margin: 100px;
+    padding: 20px;
+    text-align: center;
+}
+
+.education{
+    background-color: aquamarine;
+    padding: 25px;
+    margin: 100px;
+    text-align: center;
+}
+
+.box{
+    background-color: white;
+    padding: 5px;
+    width: 500px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 10px;
+
+}
+
+.skills{
+    background-color: rgb(228, 239, 105);
+    padding: 25px;
+    margin: 100px;
+    text-align: center;
+}
+
+.projects{
+    background-color: rgb(203, 136, 248);
+    padding: 25px;
+    margin: 100px;
+    text-align: center;
+}
+
+.contact{
+    background-color: rgb(130, 246, 126);
+    padding: 25px;
+    margin: 100px;
+    text-align: center;
+}
+
+.footer{
+    background-color: darkblue;
+    text-align: center;
+    padding: 15px;
+    color: aliceblue;
+}

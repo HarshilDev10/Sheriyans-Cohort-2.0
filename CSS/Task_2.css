@@ -1,0 +1,103 @@
+@font-face {
+    font-family: Helvetica;
+    src: url(./Fonts/Helvetica.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main-div{
+    height: 100%;
+    width: 100%;
+}
+
+#nav{
+    padding: 20px 50px;
+}
+
+#nav a{
+    text-decoration: none;
+    color: black;
+    margin-right: 30px;
+}
+
+#main-div > h1{
+    padding: 30px;
+    font-size: 300px;
+    font-weight: 100;
+}
+
+#image-div > img{
+    position: absolute;
+}
+
+#img1{
+    top: 53%;
+    left: 40%;
+    height: 200px;
+    width: 150px;
+}
+
+#img2{
+    left: 49%;
+    top: 70%;
+    height: 200px;
+    width: 150px;
+}
+
+#img3{
+    left: 57%;
+    top: 45%;
+    height: 260px;
+    width: 170px;
+}
+
+
+
+#left-bottom{
+    margin: 30px 50px;
+    padding-top: 20px;
+    width: 200px;
+}
+
+#product{
+    margin-bottom: 20px;
+}
+
+h3{
+    font-size: 14px;
+}
+
+p{
+    font-size: 12px;
+}
+
+
+#footer{
+    padding: 0px 50px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer > a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+#footer > h3 {
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 100;
+}
