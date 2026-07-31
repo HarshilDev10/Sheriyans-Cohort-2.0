@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+html,body {
+    height:100%;
+    width:100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    position: relative;
+}
+
+
+#nav{
+    background-color: rgb(33, 33, 33);
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+#nav h4{
+    color: white;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+#center{
+    margin: 200px 0px;
+    background-image: url(./Assets/iPhone\ 17\ Pro.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+#center h1{
+    position: absolute;
+    top: 23%;
+    left: 40%;
+    background: linear-gradient(to right,white ,orange);
+    --webkit-background-clip:text;
+    background-clip: text;
+    color: transparent;
+    text-align: center;
+    font-size: 70px;
+}
