@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  gap: 10px;
+}
+main section {
+  height: 100%;
+  width: 100px;
+  flex-grow: 1;
+  transition: all 0.9s cubic-bezier(0.19, 1, 0.22, 1);
+  cursor: pointer;
+}
+main section:hover {
+  flex-grow: 2;
+}
+main section:nth-child(1) {
+  background-image: url("./Assets/goblin.jpg");
+  background-size: cover;
+  background-position: center;
+}
+main section:nth-child(2) {
+  background-image: url("./Assets/Jonathan.jpg");
+  background-size: cover;
+  background-position: center;
+}
+main section:nth-child(3) {
+  background-image: url("./Assets/scout.png");
+  background-size: cover;
+  background-position: center;
+}
+main section:nth-child(4) {
+  background-image: url("./Assets/clutchgod.webp");
+  background-size: cover;
+  background-position: center;
+}
+main section:nth-child(5) {
+  background-image: url("./Assets/Omega.jpg");
+  background-size: cover;
+  background-position: center;
+}/*# sourceMappingURL=task_1.css.map */
