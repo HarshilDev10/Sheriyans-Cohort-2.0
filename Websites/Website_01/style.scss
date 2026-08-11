@@ -17,12 +17,16 @@ html,body{
     gap: $gap;
 }
 
+
 main{
     width: 100%;
+    display: flex;
+    justify-content: center;
     
     section{
         padding: 1rem;
         width: 100%;
+        max-width: 2000px;
         @include flex-column(1rem);
 
         #top{
